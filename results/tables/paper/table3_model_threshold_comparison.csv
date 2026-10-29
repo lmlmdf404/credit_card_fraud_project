@@ -1,0 +1,8 @@
+Model,Imbalance Handling,Score Type,Evaluation Threshold,Precision,Recall,F2-score,AP
+Logistic Regression,No Resampling,probability,0.50 (Default),0.833,0.493,0.537,0.688
+Random Forest,No Resampling,probability,0.50 (Default),0.965,0.775,0.806,0.827
+HistGradientBoosting,No Resampling,probability,0.50 (Default),0.420,0.662,0.593,0.502
+Linear SVM,No Resampling,decision score,0.00 (Default),0.868,0.465,0.512,0.732
+XGBoost,No Resampling,probability,0.50 (Default),1.000,0.676,0.723,0.827
+Balanced Random Forest,Internal (balanced bootstrap per tree),probability,0.50 (Default),0.105,0.873,0.355,0.728
+XGBoost (Optimized θ*),No Resampling,probability,0.040 (Policy A: Max F2),0.903,0.789,0.809,0.827

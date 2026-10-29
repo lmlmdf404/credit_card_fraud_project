@@ -1,0 +1,7 @@
+Metric,Validation,Unseen Test
+Precision,0.903,0.806
+Recall,0.789,0.817
+F2-score,0.809,0.815
+Average Precision,0.827,0.816
+False Positives,6,14
+False Negatives,15,13

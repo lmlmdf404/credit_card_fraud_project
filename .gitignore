@@ -1,0 +1,19 @@
+# Data
+data/
+*.csv
+
+# Requirements / Dependencies
+requirements.txt
+requirements*.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python cache & Virtual environment
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+

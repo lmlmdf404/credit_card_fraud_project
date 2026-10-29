@@ -1,0 +1,12 @@
+Characteristic,Value
+Total Transactions,"283,726"
+Legitimate Transactions (Class 0),"283,253"
+Fraudulent Transactions (Class 1),473
+Fraud Rate (%),0.1667%
+"Total Features (V1-V28, Time, Amount)",30
+Training Set Samples (70%),"198,608"
+Validation Set Samples (15%),"42,559"
+Test Set Samples (15%),"42,559"
+Fraud Count in Train,331
+Fraud Count in Validation,71
+Fraud Count in Test,71

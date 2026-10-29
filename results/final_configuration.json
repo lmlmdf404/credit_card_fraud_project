@@ -1,0 +1,44 @@
+{
+  "timestamp_frozen_utc": "2026-10-29T09:18:15.386941+00:00",
+  "research_title": "Credit Card Fraud Detection Using Machine Learning and Generalization Evaluation on Unseen Data",
+  "random_seed": 42,
+  "selected_imbalance_strategy": "No Resampling",
+  "selected_model_architecture": "XGBoost",
+  "model_selection_criterion": "Highest Validation Average Precision (AP) among RQ2 candidates (threshold-independent)",
+  "selected_model_imbalance_handling": "No Resampling",
+  "selected_model_score_type": "probability",
+  "rq2_models_trained": [
+    "Logistic Regression",
+    "Random Forest",
+    "HistGradientBoosting",
+    "Linear SVM",
+    "XGBoost",
+    "Balanced Random Forest"
+  ],
+  "rq2_models_failed": {},
+  "library_versions": {
+    "python": "3.13.16",
+    "pandas": "2.3.3",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "imblearn": "0.14.2",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "joblib": "1.6.0",
+    "xgboost": "3.4.1"
+  },
+  "threshold_selection_policy": "Policy A: Maximizing Validation F2-score",
+  "optimized_classification_threshold": 0.04,
+  "optimized_classification_threshold_exact": 0.04,
+  "threshold_scale": "probability",
+  "validation_performance_at_optimized_threshold": {
+    "Precision": 0.9032,
+    "Recall": 0.7887,
+    "F1-score": 0.8421,
+    "F2-score": 0.8092,
+    "Average Precision": 0.8271,
+    "FP": 6,
+    "FN": 15
+  }
+}
